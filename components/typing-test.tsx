@@ -177,7 +177,7 @@ export function TypingTest() {
               }
 
               // Optional: Show decomposition in dev mode
-              if (isNepaliMode && charIndex === typedWord.length && process.env.NODE_ENV === "development") {
+              if (isNepaliMode && charIndex === typedWord.length && process.env.NODE_ENV === "production") {
                 displayChar = `[${char}]`;
               }
 
